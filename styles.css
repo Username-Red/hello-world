@@ -1,0 +1,20 @@
+
+
+@keyframes dance {
+    0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+    25% { transform: translate(-50%, -52%) rotate(-5deg); }
+    50% { transform: translate(-50%, -50%) rotate(5deg); }
+    75% { transform: translate(-50%, -48%) rotate(-3deg); }
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    animation: dance 1s infinite;
+}
+
